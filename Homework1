@@ -1,0 +1,26 @@
+colors = ["green", "blue", "orange", "silver"]
+
+print (colors)
+
+numbers = list(range(30, 63, 3))
+
+print (numbers)
+
+dictionary= {"sunny": "play",
+            "rainy": "watching " + "TV",
+            "Cloudy": "walk"}
+
+print (dictionary)
+
+dictionary.update ({"snowy": "ski"})
+
+print (dictionary)
+
+grade = int(input("Your grade is "))
+if grade >= 90:
+    print ("A")
+elif grade >= 80:
+    print ("B")
+elif grade >= 70:
+    print ("C")
+else: print ("F")
